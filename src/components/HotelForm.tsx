@@ -66,9 +66,9 @@ const HotelForm = (props: HotelFormProps) => {
         <Form.Group controlId="formBasicDescription">
           <Form.Label>Description</Form.Label>
           <Form.Control
-            type="number"
-            placeholder="Enter hotel rating"
-            name="rating"
+            type="text"
+            placeholder="Enter hotel description"
+            name="description"
             value={hotelDetails.description}
             onChange={handleChange}
             required
